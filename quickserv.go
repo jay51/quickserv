@@ -708,7 +708,7 @@ func main() {
 	if err != nil {
 		Fatal(err)
 	}
-	fmt.Printf("Running in folder:\n%v\n\n", wd)
+	//fmt.Printf("Running in folder:\n%v\n\n", wd)
 
 	// Print non-static routes that will be executed (if any)
 	routes, err := FindExecutablePaths(logfileName)
